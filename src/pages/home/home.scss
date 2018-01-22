@@ -1,0 +1,68 @@
+page-home {
+
+html,body,ion-app,ion-content,ion-page,.nav-decor {
+  background-color: transparent !important;
+}
+
+#map2 {
+  width: 100%;
+  height: 100%;
+}
+.poi {
+  width: 220px;
+  background: #333;
+  position: relative;
+  top: 150px;
+  font-size: 0;
+  margin: 0 auto; // transition: 250ms ease;
+
+  .imgLeft {
+    background: color($colors, primary) !important;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  .textContent {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 14px;
+    margin: 0;
+    color: white;
+  }
+  p {
+    font-size: 12px;
+    margin: 0;
+    color: grey;
+  }
+  .poiName {
+    margin-bottom: 5px;
+  }
+  .km {
+    color: white;
+  }
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  position: relative;
+  top: 150px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333;
+  margin: auto;
+}
+.blue {
+  color: color($colors, primary);
+}
+.empty {
+  color: grey;
+}
+
+   }
